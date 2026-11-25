@@ -1,0 +1,319 @@
+﻿<!doctype html>
+<html lang="es" data-theme="claro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JUSTIA — Del conocimiento jurídico a la acción ciudadana</title>
+  <meta name="description" content="JUSTIA: plataforma jurídica colombiana con orientación, fuentes oficiales, rutas, documentos, análisis de riesgos y protección de derechos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Poppins:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="justia/styles.css">
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M5 7h14M5 7 2 13h6L5 7Zm14 0-3 6h6l-3-6ZM8 21h8"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></symbol>
+    <symbol id="i-translate" viewBox="0 0 24 24"><path d="M3 5h9M7.5 3v2M6 5c0 4 2.5 7 6 8M5 9c1.5 3 4 5 7 6M14 20l4-9 4 9m-6.5-3h5"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M6 2h8l4 4v16H6V2Zm8 0v5h5M9 12h7M9 16h7"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="19" r="2"/><path d="M6 7v6a4 4 0 0 0 4 4h6"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M3 12h4l2-6 4 12 3-8 2 2h3"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 20 5v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5l8-3Zm-3 10 2 2 4-4"/></symbol>
+    <symbol id="i-archive" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="5" rx="1"/><path d="M5 9v11h14V9M10 13h4"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1 .7-1.5 1.2-1.5 2.5M12 17v.5"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 5.5 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-5.5-3.5-9S9.5 5.5 12 3Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M20 12H4m6-6-6 6 6 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 19h16"/></symbol>
+    <symbol id="i-print" viewBox="0 0 24 24"><path d="M6 9V3h12v6M6 18H4V9h16v9h-2M6 15h12v6H6z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 2 20h20L12 3Zm0 6v5m0 3v.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 4 5a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6Zm7 13 1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3Z"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 14h10l1-14M10 11v6m4-6v6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4h7a3 3 0 0 1 3 3v13a3 3 0 0 0-3-3H4V4Zm16 0h-7a3 3 0 0 0-3 3v13a3 3 0 0 1 3-3h7V4Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V5l8-3 8 3v16M9 21v-5h6v5M8 8h1m6 0h1M8 12h1m6 0h1"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M3 5h18l-7 8v6l-4 2v-8L3 5Z"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8v.5"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navegación lateral">
+      <div class="sidebar-brand">
+        <a class="brand" href="#inicio" data-nav="inicio" aria-label="JUSTIA — inicio">
+          <span class="brand-mark"><svg class="icon"><use href="#i-scale"></use></svg></span>
+          <span class="brand-copy"><strong>JUSTIA</strong><small data-i18n="brandTag">Del conocimiento jurídico a la acción ciudadana</small></span>
+        </a>
+        <button class="icon-btn sidebar-close" id="sidebar-close" type="button" aria-label="Cerrar menú"><svg class="icon"><use href="#i-close"></use></svg></button>
+      </div>
+
+      <div class="sidebar-scroll">
+        <p class="nav-group" data-i18n="navPrincipal">Navegación principal</p>
+        <nav class="nav-list" aria-label="Navegación principal">
+          <button type="button" class="nav-item" data-nav="inicio"><svg class="icon"><use href="#i-home"></use></svg><span data-i18n="navInicio">Inicio</span></button>
+          <button type="button" class="nav-item" data-nav="orientador"><svg class="icon"><use href="#i-compass"></use></svg><span data-i18n="navOrientador">Orientador jurídico</span></button>
+          <button type="button" class="nav-item" data-nav="traductor"><svg class="icon"><use href="#i-translate"></use></svg><span data-i18n="navTraductor">Traductor jurídico</span></button>
+          <button type="button" class="nav-item" data-nav="documentos"><svg class="icon"><use href="#i-file"></use></svg><span data-i18n="navDocumentos">Constructor de documentos</span></button>
+          <button type="button" class="nav-item" data-nav="buscador"><svg class="icon"><use href="#i-search"></use></svg><span data-i18n="navBuscador">Legislación y jurisprudencia</span></button>
+        </nav>
+
+        <p class="nav-group" data-i18n="navHerramientas">Espacios de trabajo</p>
+        <nav class="nav-list" aria-label="Espacios de trabajo">
+          <button type="button" class="nav-item" data-nav="rutas"><svg class="icon"><use href="#i-route"></use></svg><span data-i18n="navRutas">Simulador de rutas</span></button>
+          <button type="button" class="nav-item" data-nav="analizador"><svg class="icon"><use href="#i-pulse"></use></svg><span data-i18n="navAnalizador">Analizador de casos</span></button>
+          <button type="button" class="nav-item nav-derechos" data-nav="derechos"><svg class="icon"><use href="#i-shield"></use></svg><span data-i18n="navDerechos">Derechos 360</span><span class="nav-pip"></span></button>
+        </nav>
+
+        <p class="nav-group" data-i18n="navSoporte">Tu información</p>
+        <nav class="nav-list" aria-label="Tu información">
+          <button type="button" class="nav-item" data-nav="historial"><svg class="icon"><use href="#i-archive"></use></svg><span data-i18n="navHistorial">Mis consultas y documentos</span></button>
+          <button type="button" class="nav-item" data-nav="ayuda"><svg class="icon"><use href="#i-help"></use></svg><span data-i18n="navAyuda">Centro de ayuda</span></button>
+        </nav>
+      </div>
+
+      <div class="sidebar-foot">
+        <div class="creator-mini">
+          <span class="creator-avatar">MM</span>
+          <div><strong>Manuela Muriel Monsalve</strong><small data-i18n="creadoraRol">Estudiante de Derecho</small></div>
+        </div>
+        <p data-i18n="disclaimer"></p>
+      </div>
+    </aside>
+    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+    <div class="main-column">
+      <header class="topbar">
+        <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menú"><svg class="icon"><use href="#i-menu"></use></svg></button>
+        <div class="breadcrumb"><span>JUSTIA</span><svg class="icon"><use href="#i-arrow"></use></svg><strong id="view-title" data-i18n="navInicio">Inicio</strong></div>
+        <form class="topbar-search" id="topbar-search-form">
+          <svg class="icon"><use href="#i-search"></use></svg>
+          <label class="sr-only" for="global-search" data-i18n="buscarGlobal">Buscar en la plataforma</label>
+          <input id="global-search" type="search" data-i18n-ph="buscarGlobal" placeholder="Buscar en la plataforma">
+        </form>
+        <div class="topbar-actions">
+          <label class="lang-select" for="lang"><svg class="icon"><use href="#i-globe"></use></svg><span class="sr-only" data-i18n="language">Idioma</span>
+            <select id="lang" aria-label="Idioma / Language"><option value="es">ES</option><option value="en">EN</option></select>
+          </label>
+          <button class="icon-btn" id="tema" type="button" aria-label="Cambiar tema"><svg class="icon"><use href="#i-moon"></use></svg></button>
+          <button class="icon-btn about-btn" type="button" data-action="about" aria-label="Acerca de JUSTIA"><svg class="icon"><use href="#i-info"></use></svg></button>
+          <button class="btn btn-sm btn-primary" id="nuevo" type="button" data-i18n="newCase">Nuevo caso</button>
+        </div>
+      </header>
+
+      <main id="main" class="main-content">
+        <!-- ================= INICIO ================= -->
+        <section class="view view-inicio" id="view-inicio">
+          <div class="home-hero">
+            <span class="hero-orb orb-a"></span><span class="hero-orb orb-b"></span><span class="hero-grid-lines"></span>
+            <div class="hero-main">
+              <span class="kicker"><span class="kicker-dot"></span><span data-i18n="homeKicker">Plataforma jurídica digital · Colombia</span></span>
+              <h1><span data-i18n="homeTitleA">Tu derecho,</span> <em data-i18n="homeTitleB">entendido y en acción.</em></h1>
+              <p class="hero-lead" data-i18n="homeLead">JUSTIA reúne orientación, fuentes oficiales, rutas y documentos en un solo lugar.</p>
+              <form class="hero-consulta" id="home-consulta">
+                <svg class="icon"><use href="#i-spark"></use></svg>
+                <label class="sr-only" for="home-input" data-i18n="consultaPlaceholder">¿En qué situación jurídica podemos ayudarte hoy?</label>
+                <input id="home-input" type="search" data-i18n-ph="consultaPlaceholder" placeholder="¿En qué situación jurídica podemos ayudarte hoy?" autocomplete="off">
+                <button class="btn btn-primary" type="submit"><span data-i18n="consultarBtn">Analizar mi situación</span><svg class="icon"><use href="#i-arrow"></use></svg></button>
+              </form>
+              <div class="hero-ejemplos"><span data-i18n="verEjemplos">Prueba con un ejemplo</span><div id="home-ejemplos" class="chip-row"></div></div>
+              <div class="hero-indicadores" id="home-stats"></div>
+            </div>
+            <aside class="hero-case">
+              <figure class="case-art"><img src="justia/assets/expediente-justia.svg" alt="Expediente jurídico con papeles, pluma y balanza" loading="lazy"></figure>
+              <div class="case-card" id="home-expediente"></div>
+            </aside>
+          </div>
+
+          <section class="home-section">
+            <header class="section-head"><div><span class="section-eyebrow">01</span><h2 data-i18n="accesosTitle">Todo lo que puedes hacer</h2><p data-i18n="accesosSub">Cada espacio tiene una función clara y comparte la misma información.</p></div></header>
+            <div class="shortcut-grid" id="home-accesos"></div>
+          </section>
+
+          <section class="home-section">
+            <header class="section-head"><div><span class="section-eyebrow">02</span><h2 data-i18n="areasTitle">Explora por área del Derecho</h2><p data-i18n="areasSub">Elige un tema para ver cómo JUSTIA puede ayudarte.</p></div></header>
+            <div class="area-grid" id="home-areas"></div>
+          </section>
+
+          <section class="home-duo">
+            <article class="panel faq-panel">
+              <header class="panel-title"><span class="section-eyebrow">03</span><h2 data-i18n="faqTitle">Preguntas frecuentes</h2></header>
+              <div class="faq-list" id="home-faq"></div>
+            </article>
+            <article class="spotlight">
+              <span class="kicker kicker-light" data-i18n="spotlightKicker">Orientación destacada</span>
+              <h2 data-i18n="spotlightTitle">De la duda a un paso concreto</h2>
+              <p data-i18n="spotlightText">JUSTIA organiza tu relato, identifica derechos posibles, relaciona normas oficiales y te propone una ruta.</p>
+              <ol class="spotlight-steps">
+                <li><span>1</span><div><strong data-i18n="s1">¿Qué está sucediendo jurídicamente?</strong><small data-i18n="descEntender">Explicación ordenada de tu situación.</small></div></li>
+                <li><span>2</span><div><strong data-i18n="s3">¿Qué dice la legislación colombiana?</strong><small data-i18n="descFuentes">Normas oficiales relacionadas con tu caso.</small></div></li>
+                <li><span>3</span><div><strong data-i18n="s8">¿Cuál es el siguiente paso?</strong><small data-i18n="descRuta">Un camino a seguir, etapa por etapa.</small></div></li>
+              </ol>
+              <button class="btn btn-light" type="button" data-nav="orientador"><span data-i18n="verAnalisis">Ver análisis completo</span><svg class="icon"><use href="#i-arrow"></use></svg></button>
+            </article>
+          </section>
+
+          <section class="rights-band">
+            <div class="rights-band-icon"><svg class="icon"><use href="#i-shield"></use></svg></div>
+            <div><span data-i18n="rightsBandKicker">Atención prioritaria</span><h2 data-i18n="rightsBandTitle">Derechos 360: tu primer escudo</h2><p data-i18n="rightsBandText">Si hay riesgo para la vida, la integridad, la libertad o la seguridad, la atención urgente va primero.</p></div>
+            <div class="rights-band-actions"><button class="btn btn-light" type="button" data-nav="derechos"><span data-i18n="identificarDerechos">Identificar mis derechos</span><svg class="icon"><use href="#i-arrow"></use></svg></button><a class="btn btn-outline-light" href="tel:123"><svg class="icon"><use href="#i-phone"></use></svg><span data-i18n="emergenciaLlamar">Llamar al 123 / 112</span></a></div>
+          </section>
+
+          <section class="home-section">
+            <header class="section-head"><div><span class="section-eyebrow">04</span><h2 data-i18n="consejosTitle">Consejos y conocimientos jurídicos</h2><p data-i18n="consejosSub">Ideas prácticas para protegerte mejor.</p></div></header>
+            <div class="tips-grid" id="home-tips"></div>
+          </section>
+        </section>
+
+        <!-- ================= ORIENTADOR ================= -->
+        <section class="view" id="view-orientador" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">JUSTIA · Guía de Derechos</span><h1 data-i18n="orientTitle">Orientador jurídico</h1><p data-i18n="orientSub">Cuéntanos qué ocurrió.</p></div><div class="view-head-actions"><button class="btn btn-ghost btn-sm" type="button" data-action="paso-anterior" id="btn-paso-anterior" hidden><svg class="icon"><use href="#i-back"></use></svg><span data-i18n="pasoAnterior">Paso anterior</span></button></div></div>
+          <div class="orient-grid">
+            <div class="panel orient-input">
+              <div class="panel-heading"><svg class="icon"><use href="#i-compass"></use></svg><div><h3 data-i18n="contarSituacion">Contar mi situación</h3><p data-i18n="chatSub">Cuéntanos qué te pasó en tus propias palabras.</p></div></div>
+              <form id="orient-form">
+                <label class="sr-only" for="orient-text" data-i18n="placeholder">Tu situación</label>
+                <textarea id="orient-text" rows="8" data-i18n-ph="placeholder"></textarea>
+                <div class="form-actions"><button class="btn btn-primary" type="submit"><span data-i18n="analizarEsteCaso">Analizar este caso</span><svg class="icon"><use href="#i-arrow"></use></svg></button></div>
+              </form>
+              <div class="guiadas" id="orient-guiadas"></div>
+              <div class="flow-strip" id="orient-flow"></div>
+            </div>
+            <div class="panel orient-output" id="orient-output"></div>
+          </div>
+        </section>
+
+        <!-- ================= TRADUCTOR ================= -->
+        <section class="view" id="view-traductor" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">Lectura en lenguaje claro</span><h1 data-i18n="tradTitle">Traductor jurídico</h1><p data-i18n="tradSub">Pega un texto legal.</p></div></div>
+          <div class="trad-layout">
+            <div class="panel trad-editor">
+              <div class="panel-heading"><svg class="icon"><use href="#i-translate"></use></svg><div><h3 data-i18n="translateLabel">Pega un texto legal para traducirlo</h3><p data-i18n="fieldHint">Completa los espacios; el resto se toma del expediente.</p></div></div>
+              <form id="trad-form">
+                <textarea id="trad-text" rows="12" data-i18n-ph="translateLabel"></textarea>
+                <div class="form-actions"><button class="btn btn-primary" type="submit"><span data-i18n="translateBtn">Traducir a lenguaje sencillo</span><svg class="icon"><use href="#i-spark"></use></svg></button></div>
+              </form>
+              <div class="trad-ejemplos" id="trad-ejemplos"></div>
+              <div class="glosario-mini"><label for="trad-glosario" data-i18n="glosario">Glosario jurídico</label><input id="trad-glosario" type="search" data-i18n-ph="buscarGlosario" placeholder="Buscar un término"><div id="trad-glosario-list"></div></div>
+            </div>
+            <div class="panel trad-preview" id="trad-output"></div>
+          </div>
+        </section>
+
+        <!-- ================= DOCUMENTOS ================= -->
+        <section class="view" id="view-documentos" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">Borradores editables</span><h1 data-i18n="docTitle">Constructor de documentos</h1><p data-i18n="docSub">Elige un modelo.</p></div></div>
+          <div class="doc-layout">
+            <aside class="panel doc-catalog"><div class="panel-heading"><svg class="icon"><use href="#i-layers"></use></svg><div><h3 data-i18n="template">Tipo de documento</h3><p data-i18n="docSub">Modelos alimentados por tu expediente.</p></div></div><div id="doc-catalog-list"></div></aside>
+            <div class="panel doc-builder"><div class="panel-heading"><svg class="icon"><use href="#i-user"></use></svg><div><h3 data-i18n="fieldHint">Completa los espacios</h3><p data-i18n="fieldHint">El resto se toma del expediente.</p></div></div><div id="doc-form"></div></div>
+            <div class="panel doc-preview"><div class="panel-heading"><svg class="icon"><use href="#i-file"></use></svg><div><h3>Borrador</h3><p data-i18n="noVerificado">Referencia de orientación · texto vigente por verificar</p></div></div><div id="doc-preview-body"></div></div>
+          </div>
+          <div class="panel doc-guardados" id="doc-guardados"></div>
+        </section>
+
+        <!-- ================= BUSCADOR ================= -->
+        <section class="view" id="view-buscador" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">Fuentes oficiales</span><h1 data-i18n="buscarTitle">Legislación y jurisprudencia</h1><p data-i18n="buscarSub">Busca normas oficiales.</p></div></div>
+          <form class="panel buscar-bar" id="buscar-form">
+            <div class="buscar-input"><svg class="icon"><use href="#i-search"></use></svg><label class="sr-only" for="buscar-texto" data-i18n="buscarGlobal">Buscar</label><input id="buscar-texto" type="search" data-i18n-ph="buscarGlobal" placeholder="Buscar en la plataforma"><button class="btn btn-primary" type="submit" data-i18n="buscarBtn">Buscar normas</button></div>
+            <div class="filtros"><span class="filtros-label"><svg class="icon"><use href="#i-filter"></use></svg><span data-i18n="filtros">Filtros de búsqueda</span></span>
+              <label><span data-i18n="tipoNorma">Tipo de norma</span><select id="f-tipo"></select></label>
+              <label><span data-i18n="entidad">Entidad emisora</span><select id="f-entidad"></select></label>
+              <label><span data-i18n="anio">Año</span><select id="f-anio"></select></label>
+              <label><span data-i18n="area">Área del Derecho</span><select id="f-area"></select></label>
+              <button class="btn btn-ghost btn-sm" type="button" data-action="limpiar-filtros" data-i18n="limpiarFiltros">Limpiar filtros</button>
+            </div>
+          </form>
+          <div class="buscar-layout"><div class="panel buscar-resultados" id="buscar-resultados"></div><aside class="panel buscar-side" id="buscar-side"></aside></div>
+        </section>
+
+        <!-- ================= RUTAS ================= -->
+        <section class="view" id="view-rutas" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">Ruta interactiva</span><h1 data-i18n="rutaTitle">Simulador de rutas legales</h1><p data-i18n="rutaSub">Visualiza los pasos.</p></div></div>
+          <div id="ruta-contenido"></div>
+        </section>
+
+        <!-- ================= ANALIZADOR ================= -->
+        <section class="view" id="view-analizador" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">Lectura de hechos y señales</span><h1 data-i18n="anaTitle">Analizador de casos y riesgos</h1><p data-i18n="anaSub">Organiza hechos.</p></div></div>
+          <form class="panel ana-input" id="ana-form">
+            <label class="sr-only" for="ana-text" data-i18n="placeholder">Tu situación</label>
+            <textarea id="ana-text" rows="5" data-i18n-ph="placeholder"></textarea>
+            <div class="form-actions"><button class="btn btn-primary" type="submit"><svg class="icon"><use href="#i-pulse"></use></svg><span data-i18n="analizarEsteCaso">Analizar este caso</span></button></div>
+          </form>
+          <div id="ana-contenido"></div>
+        </section>
+
+        <!-- ================= DERECHOS 360 ================= -->
+        <section class="view" id="view-derechos" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">Defensor ciudadano</span><h1 data-i18n="derTitle">Derechos 360</h1><p data-i18n="derSub">Panel de protección.</p></div></div>
+          <div id="derechos-contenido"></div>
+        </section>
+
+        <!-- ================= HISTORIAL ================= -->
+        <section class="view" id="view-historial" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">Continuidad de tu trabajo</span><h1 data-i18n="histTitle">Mis consultas y documentos</h1><p data-i18n="histSub">Recupera análisis anteriores.</p></div><button class="btn btn-ghost btn-sm" type="button" data-action="borrar-historial" id="btn-borrar-historial"><svg class="icon"><use href="#i-trash"></use></svg><span data-i18n="eliminarTodo">Eliminar historial</span></button></div>
+          <div class="hist-layout"><div class="panel" id="hist-list"></div><aside class="panel" id="hist-borradores"></aside></div>
+        </section>
+
+        <!-- ================= AYUDA ================= -->
+        <section class="view" id="view-ayuda" hidden>
+          <div class="view-head"><div><span class="view-eyebrow">Acompañamiento</span><h1 data-i18n="ayudaTitle">Centro de ayuda</h1><p data-i18n="ayudaSub">Guías, respuestas y contactos.</p></div></div>
+          <div class="ayuda-layout">
+            <div class="panel" id="ayuda-guias"></div>
+            <div class="panel" id="ayuda-faq"></div>
+            <div class="panel" id="ayuda-glosario"></div>
+          </div>
+          <div class="panel contactos" id="ayuda-contactos"></div>
+        </section>
+      </main>
+
+      <footer class="app-footer">
+        <p><strong>JUSTIA</strong> · <span data-i18n="brandTag">Del conocimiento jurídico a la acción ciudadana</span></p>
+        <p data-i18n="disclaimer"></p>
+      </footer>
+    </div>
+  </div>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-backdrop" data-action="cerrar-modal"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="icon-btn modal-close" type="button" data-action="cerrar-modal" aria-label="Cerrar"><svg class="icon"><use href="#i-close"></use></svg></button>
+      <h2 id="modal-title"></h2><div id="modal-body"></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="skill%203/data-core.js"></script>
+  <script src="skill%203/data-topics-1.js"></script>
+  <script src="skill%203/data-topics-2.js"></script>
+  <script src="skill%203/data-topics-3.js"></script>
+  <script src="skill%203/data-topics-4.js"></script>
+  <script src="skill%203/data-extras.js"></script>
+  <script src="skill%203/app.js"></script>
+  <script src="justia/js/core.js"></script>
+  <script src="justia/js/state.js"></script>
+  <script src="justia/js/analyzer.js"></script>
+  <script src="justia/js/sources.js"></script>
+  <script src="justia/js/routes.js"></script>
+  <script src="justia/js/documents.js"></script>
+  <script src="justia/js/rights360.js"></script>
+  <script src="justia/js/translator.js"></script>
+  <script src="justia/js/orchestrator.js"></script>
+  <script src="justia/js/ui.js"></script>
+</body>
+</html>
